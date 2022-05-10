@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+	<link rel="stylesheet" href="styles/style.css">
+	<title>Document</title>
+</head>
+<body class="bg-dark">
+	<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+		<div class="container-fluid">
+			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="collapse navbar-collapse" id="navbarSupportedContent">
+				<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+					<li class="nav-item">
+						<a class="nav-link active" aria-current="page" href="#">Home</a>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link" href="#">Link</a>
+					</li>
+					<li class="nav-item dropdown">
+						<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+							Dropdown
+						</a>
+						<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+							<li><a class="dropdown-item" href="#">Action</a></li>
+							<li><a class="dropdown-item" href="#">Another action</a></li>
+							<li><hr class="dropdown-divider"></li>
+							<li><a class="dropdown-item" href="#">Something else here</a></li>
+						</ul>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+					</li>
+				</ul>
+				<a class="navbar-brand me-auto" href="#">
+					<img src="images/truck-3-256.png" alt="" width="40" height="34">
+				</a>
+				<form class="d-flex">
+					<input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+					<button class="btn btn-outline-success" type="submit">Search</button>
+				</form>
+			</div>
+		</div>
+	</nav>
+	<header class="container-fluid d-flex justify-content-end mt-3">
+		<a a class="link-light text-decoration-none d-flex" href="">
+			<h5>Volver</h5>
+			<img class="ms-3" style="width: 25px; height: 25px;" src="images/user-2-64.png" alt="">
+		</a>
+	</header>
+	<main class="container-xxl d-grid gap-5 mt-5">
+		<div class="row text-center text-light ">
+			<h1>Numero minuta</h1>
+			<hr class="w-70">
+		</div>
+		<div class="row d-grid">
+			<div class="row">
+				<div class="col d-flex">
+					<div class="text-light text-center">
+						<img src="images/user-2-64.png" alt="">
+						<h6 class="mt-1">Rut</h6>
+					</div>
+					<div class="text-light ms-3 d-flex flex-column justify-content-center">
+						<h5>Remitente</h5>
+						<h5>Nombre Completo</h5>
+					</div>
+				</div>
+				<div class="col d-flex justify-content-end">
+					<div class="text-light text-center">
+						<img src="images/user-2-64.png" alt="">
+						<h6 class="mt-1">Rut</h6>
+					</div>
+					<div class="text-light ms-3 d-flex flex-column justify-content-center">
+						<h5>Destinatario</h5>
+						<h5>Nombre Completo</h5>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center text-light">
+			<figure class="text-center">
+				<blockquote class="blockquote">
+					<h2>14/05/2022</h2>
+				</blockquote>
+				<figcaption class="blockquote-footer">
+					Fecha estimada de entrega
+				</figcaption>
+			</figure>
+		</div>
+		<div class="row d-grid">
+			<div class="row border border-light rounded p-2">
+				<div class="col d-flex align-items-center text-light">
+					<img class="me-2" src="images/circle-64.png" alt="" width="40" height="40">
+					<h3>Origen: Valdivia</h3>
+				</div>
+				<div class="col">
+					<div class="col d-flex align-items-center justify-content-end text-light">
+						<img class="me-2" src="images/pin-8-64.png" alt="" width="40" height="40">
+						<h3>Destino: Copiapo</h3>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="row text-center text-light">
+			<h2>Detalle de viaje</h2>
+		</div>
+		<div class="row">
+			<table class="table text-light text-center">
+				<thead>
+					<tr>
+						<th scope="col">Patente del camion</th>
+						<th scope="col">Kilogramos</th>
+						<th scope="col">Valor combustible x litro</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="row">
+			<table class="table text-light text-center">
+				<thead>
+					<tr>
+						<th scope="col">Patente del camion</th>
+						<th scope="col">Kilogramos</th>
+						<th scope="col">Valor combustible x litro</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="row">
+			<table class="table text-light text-center">
+				<thead>
+					<tr>
+						<th scope="col">Costo total petroleo</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>$10.000.000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="row text-center text-light">
+			<h2>Detalle de la carga</h2>
+		</div>
+		<div class="row">
+			<table class="table text-light text-center">
+				<thead>
+					<tr>
+						<th scope="col">Codigo Carga</th>
+						<th scope="col">Kilogramos</th>
+						<th scope="col">Volumen</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+					<tr>
+						<td>WF-YG-01</td>
+						<td>100</td>
+						<td>10.000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+		<div class="row">
+			<table class="table text-light text-center">
+				<thead>
+					<tr>
+						<th scope="col"></th>
+						<th scope="col">Total Carga</th>
+						<th scope="col"></th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td>$10.000.000</td>
+						<td>$10.000.000</td>
+						<td>$10.000.000</td>
+					</tr>
+				</tbody>
+			</table>
+		</div>
+	</main>
+</body>
+</html>
